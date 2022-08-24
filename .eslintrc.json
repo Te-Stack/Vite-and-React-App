@@ -17,7 +17,9 @@
         "react"
     ],
     "rules": {
+         "skipBlankLines": true ,
        "react/react-in-jsx-scope": "off",
-       "semi": [2, "always"]
+       "quotes": ["error", "double"]
+
       }
 }
