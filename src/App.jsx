@@ -13,7 +13,7 @@ function App () {
   return (
     <QueryClientProvider client={queryClient}>
     <div className='App'>
-      <h1>Star Wars Info</h1>
+      <h1>React Query using Star War API</h1>
       <Navbar setPage={setPage} />
      <div className="content">
         {page === 'planets'? <Planets/> : <People/>}
