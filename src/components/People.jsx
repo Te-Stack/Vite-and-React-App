@@ -4,7 +4,7 @@ import Person from './Person';
 import axios from "axios";
 
 const fetchPeople = async () => {
-  const res = await axios.get('http://swapi.dev/api/people/');
+  const res = await axios.get('https://swapi.dev/api/people/');
   return res.data;
 }
 

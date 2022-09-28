@@ -4,7 +4,7 @@ import Planet from './Planet';
 import axios from "axios"
 
 const fetchPlanets = async (page) => {
-  const res = await axios.get(`http://swapi.dev/api/planets/?page=${page}`);
+  const res = await axios.get(`https://swapi.dev/api/planets/?page=${page}`);
   return res.data;
 }
 
